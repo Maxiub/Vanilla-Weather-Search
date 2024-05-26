@@ -15,21 +15,33 @@
   <body>
     <div class="weather-form">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Tokyo</h1>
-          <p>
-            Tuesday 17:30, cloudy
-            <br />
-            Humidity: 70%, Wind: 4.17km/h
-          </p>
+        <div class="weather-app-content">
+          <div>
+            <h1 class="city-display">Tokyo</h1>
+            <p class="weather-app-details">
+              Tuesday 17:30, cloudy
+              <br />
+              Humidity: <strong>70%</strong>, Wind: <strong>4.17km/h</strong>
+            </p>
+          </div>
+
+          <div class="temperature-details">
+            <div class="icon">☁️</div>
+            <div class="temperature">23</div>
+            <div class="temperture-unit">°C</div>
+          </div>
         </div>
-        <div>☁️ 23 °C</div>
       </main>
       <footer>
         <p>
