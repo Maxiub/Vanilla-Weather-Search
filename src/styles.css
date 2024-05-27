@@ -70,6 +70,8 @@ main {
 
 .icon {
   font-size: 45px;
+  width: 60px;
+  height: 60px;
   margin-top: 50px;
 }
 
